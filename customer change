@@ -1,0 +1,40 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a,b,c,d,e,f,k,l,m,n,o;
+    int g,h,i,j,z;
+    cout<<"Enter the bill of the customer";
+    cin>>a;
+    cout<<("Enter amount given by the customer");
+    cin>>b;
+    c=b-a;
+    cout<<("Due amount is ");cout<<c;
+    g=c;
+    d=c-g;
+    e=d*4;
+    h=e;
+    f=(e-h)/4;
+    k=f*10;
+    i=k;
+    l=(k-i)/4;
+    m=l*20;
+    j=m;
+    n=(m-j)/20;
+    z=n;
+    cout<<"\nReturn ";
+    cout<<g;
+    cout<<" dollars ";
+    cout<<h;
+    cout<<" quaters    ";
+    cout<<i;
+    cout<<" dimes      ";
+    cout<<j;
+    cout<<" nikles     ";
+    cout<<z;
+    cout<<" pennies    ";
+    
+    return 0;
+}
